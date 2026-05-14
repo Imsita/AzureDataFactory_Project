@@ -1,0 +1,15 @@
+{
+	"name": "Adf-course-tanu",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d682a410-b39f-45cf-8713-3fc47cb88201",
+		"tenantId": "fbc0dd05-5d22-4aff-b098-88a2ba6e1b88"
+	}
+}

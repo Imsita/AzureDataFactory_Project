@@ -1,0 +1,17 @@
+{
+	"name": "ls_omPrem_Files",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\AnshLambaFiles",
+			"userId": "laptop-qe4nlitm\\shashi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlYmU2ODRiNy1lY2ZiLTQzMjAtYTcyZi0xZWVmYjAwYTVhN2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Shashi-SelfHosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

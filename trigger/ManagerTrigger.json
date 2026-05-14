@@ -1,0 +1,24 @@
+{
+	"name": "ManagerTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipelinemanager1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfiles/sales2.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/e6381d5c-be1d-43f9-8ed8-4eeb431ebd81/resourceGroups/azurefundamentals/providers/Microsoft.Storage/storageAccounts/azurefundstoragedb",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
